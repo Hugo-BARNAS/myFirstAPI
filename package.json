@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "backpack"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/Hugo-BARNAS/myFirstAPI#readme",
   "dependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "babel-preset-stage-3": "^6.24.1",
     "backpack-core": "^0.8.4"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.1.0"
   }
 }
