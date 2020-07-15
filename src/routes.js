@@ -1,12 +1,12 @@
 import express from 'express';
 
 
-const Router = express.Router();
+const router = express.Router();
 
-Router.get('/', (req, res) => {
-    res.send ('thomas: "Thomas Jamais", alban: "Alban Meurice"')
+router.get('/', (req, res) => {
+    res.status(200).res.send ('thomas: "Thomas Jamais", alban: "Alban Meurice"')
 });
 
 
 
-export default Router;
+export default router;
