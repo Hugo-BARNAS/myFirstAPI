@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "backpack"
+    "start": "SERVER_PORT=1179 backpack",
+    "build": "backpack build"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,10 @@
     "@babel/core": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
     "babel-preset-stage-3": "^6.24.1",
-    "backpack-core": "^0.8.4"
+    "backpack-core": "^0.8.4",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.19"
   },
   "devDependencies": {
     "babel-loader": "^8.1.0"
